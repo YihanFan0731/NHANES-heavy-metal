@@ -3,7 +3,7 @@
 * Project: 	Blood Metal and Reproductive Dysfunction				       ;
 * Author:       Yihan Fan								       ;
 * Program: 	nhanes.sas								       ;
-* Date: 	September 2023                                                                 ;										   										       ;											  
+* Date: 	September 2023                                                                 ;
 ***********************************************************************************************;
 
 
