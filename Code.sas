@@ -1,18 +1,16 @@
 
 ***********************************************************************************************;
-* Project: 		Blood Metal and Reproductive Dysfunction									   ;
-* Author:       Maria McClam																   ;
-* Program: 		nhanes.sas															   	       ;
-* Date: 		September 2021                                                                 ;
-*																							   ;
-*																							   ;
+* Project: 	Blood Metal and Reproductive Dysfunction				       ;
+* Author:       Yihan Fan								       ;
+* Program: 	nhanes.sas								       ;
+* Date: 	September 2023                                                                 ;										   										       ;											  
 ***********************************************************************************************;
 
 
 
 
 **********************************************************************************************************************************;
-**** 												*LINK DATASETS* 													      ****;
+**** 				*LINK DATASETS* 									      ****;
 **********************************************************************************************************************************;
 
 ****Read in the class data set***;
@@ -41,7 +39,7 @@ libname PBCD_J xport 'C:\Users\zubizarr\Dropbox\USC\PhD\DISSERTATION\CHAPTER - N
 
 
 ******************************************************************************************;
-**** 							*2013-2014* 										  ****;
+**** 	*2013-2014* 							              ****;
 ******************************************************************************************;
 
 proc contents data=pbcd_h position;
@@ -54,7 +52,7 @@ run;
 
 
 ******************************************************************************************;
-**** 							*2015-2016* 										  ****;
+**** 				*2015-2016* 					      ****;
 ******************************************************************************************;
 
 proc contents data=pbcd_i position;
@@ -67,7 +65,7 @@ run;
 
 
 ******************************************************************************************;
-**** 							*2017-2018* 										  ****;
+**** 			         *2017-2018* 					      ****;
 ******************************************************************************************;
 
 proc contents data=pbcd_j position;
@@ -80,7 +78,7 @@ run;
 
 
 ******************************************************************************************;
-**** 					*Link years for blood metal Datasets* 						  ****;
+**** 	  *Link years for blood metal Datasets* 				      ****;
 ******************************************************************************************;
 
 * Combine pdcd (blood metal) dataset from 2013-2018 ;
@@ -96,9 +94,9 @@ run;
 
 
 
-**********************************************************************************************************************************;
-**** 													*MERGE DATASETS* 													  ****;
-**********************************************************************************************************************************;
+*******************************************************************************************************************;
+**** 				*MERGE DATASETS* 							       ****;
+*******************************************************************************************************************;
 
 * sort by seqn ;
 
@@ -125,7 +123,7 @@ run;
 
 
 **********************************************************************************************************************************;
-**** 				 						 *WEIGHTING & FINAL INFERTILITY DATASET*   									      ****;
+**** 			 *WEIGHTING & FINAL INFERTILITY DATASET*   							      ****;
 **********************************************************************************************************************************;
 
 ***Weight & creating my final reproduction data set***;
@@ -148,7 +146,7 @@ run;
 
 
 *************************************************************************************************************************************;
-****         						  *RECODING AND CREATING NEW VARIABLES = Reproduction1*    		     						 ****;
+****         	  *RECODING AND CREATING NEW VARIABLES = Reproduction1*    		     					 ****;
 *************************************************************************************************************************************;
 
 data reproduction1;
@@ -287,9 +285,9 @@ else if RHD043R in (.) then Menopause=.;
 
 
 
-*************************************************************************************************************************************;
-*                         			 						  FORMATS                                							     ;
-*************************************************************************************************************************************;
+*****************************************************************************************************;
+*                      FORMATS                                					     ;
+*****************************************************************************************************;
 
 PROC FORMAT;
   VALUE RIDRETH1f 1="Mexican American"
@@ -365,7 +363,7 @@ RUN;
 
 
 ******************************************************************************************;
-****           *Double checking my recoding and creating new variables  		      ****;
+****           *Double checking my recording and creating new variables  	      ****;
 ******************************************************************************************;
 
 ******************** checking re-coding;
@@ -388,14 +386,14 @@ format DMDEDUC2 DMDEDUC2f.
 tables DMDEDUC2*DMDEDUC2R/missing;
 run;
 
-*marrital status;
+*marital status;
 proc freq data=reproduction1;
 format DMDMARTL DMDMARTLf.
 	   DMDMARTLR DMDMARTLRf.;
 tables DMDMARTL*DMDMARTLR/missing;
 run;
 
-*bmi;
+*BMI;
 proc freq data=reproduction1;
 tables BMXBMI*BMXBMIR/missing;
 format BMXBMIR BMXBMIR.;
@@ -427,7 +425,7 @@ proc freq data=reproduction1;
 tables RHQ540*RHQ540R/missing;
 run;
 
-*seen a dr because unable to become pregnant;
+*seen a doctor because unable to become pregnant;
 proc freq data=reproduction1;
 tables RHQ076*RHQ076R/missing;
 run;
@@ -456,7 +454,7 @@ proc freq data=reproduction1;
 tables RHQ031/missing;
 run;
 
-*infertility vs prenant women;
+*infertility vs pregnant women;
 proc freq data=reproduction1;
 tables RHQ074R/missing;
 run;
@@ -474,7 +472,7 @@ tables Infertility/missing;
 format Infertility Infertilityf.;
 run;
 
-proc freq data=reproduction1;   /*RHD143R is are you pregnant now*/   /*there were 10 pregnant women who also said yes to trying for a year to become pregnant*/
+proc freq data=reproduction1;   /*RHD143R is are you pregnant now*/   /*10 pregnant women also said yes to trying for a year to become pregnant*/
 tables RHD143R*Infertility/missing;
 format Infertility Infertilityf.;
 format RHD143R RHD143Rf.;
@@ -566,11 +564,11 @@ run;
 
 
 ****************************************************************************************************************************************;
-**** 				      						   *INCLUSION AND EXCLUSIONS*   				             					    ****;
+**** 				        *INCLUSION AND EXCLUSIONS*   				             			    ****;
 ****************************************************************************************************************************************;
 
 **********************************************************************;
-****           	regular proc freqs for figure 1 ? 		     	  ****;
+****           	regular proc freqs for figure 1 ? 		  ****;
 **********************************************************************;
 
 proc freq data=reproduction1;     /*number of males vs females*/
@@ -667,7 +665,7 @@ run;
 
 
 *********************************************************************;
-*						creating domain statement			 		 ;
+*				creating domain statement	     ;
 *********************************************************************;
 
 *limit data to women age 20 - 49 by using the domain statement - NHANES requries domain statement ;
@@ -798,7 +796,7 @@ run;
 
 
 ***************************************************************************************************************************************;
-**** 					      	 						 *extra info*   				          								   ****;
+**** 		 *extra info*   				          							   ****;
 ***************************************************************************************************************************************;
 
 title 'How Amenorrhea Differs by Infertility using freq'; 
@@ -835,7 +833,7 @@ run;
 
 
 ***********************************************************************************************************************************;
-**** 					         						  *TABLE 1*   						           						   ****;
+**** 					  *TABLE 1*   		                                                               ****;
 ***********************************************************************************************************************************;
 *******use proc tabulate or macro;
 *Categorical: weighted % (unweighted n)   
@@ -845,7 +843,7 @@ Offer p-values (STROBE suggested to avoid p-values in Table 1). Don’t over-int
 *when using domain statement, read from elegible=1 in the results tab on the left window ;
 
 *************************************************************************************;
-*               					TABLE 1a  AMENORRHEA            				 ;
+*               				TABLE 1a  AMENORRHEA    	     ;
 *************************************************************************************;
 
 ***********total sample;
@@ -921,7 +919,7 @@ WEIGHT WTSH6YR;
 CLUSTER SDMVPSU;
 STRATA SDMVSTRA;
 DOMAIN eligible;
-model RIDAGEYR = amenorrhea; 		/*to get p-value looking at if it varries by age group so you put age group as the outcome*/
+model RIDAGEYR = amenorrhea; 		/*to get p-value looking at if it varies by age group so you put age group as the outcome*/
 run;
 ods graphics off;
 
@@ -938,7 +936,7 @@ ods graphics off;
 
 
 ****************************************************************************************;
-*          							  TABLE 1b  INFERTILITY          				    ;
+*          	   TABLE 1b  INFERTILITY          				        ;
 ****************************************************************************************;
 
 **************total sample for infertilefertile;
@@ -1114,7 +1112,7 @@ ods graphics off;
 
 
 ***********************************************************************************************************************************;
-*													DISTRIBUTION FOR BLOOD METAL LEVELS						 				 	   ;
+*			    DISTRIBUTION FOR BLOOD METAL LEVELS						 			   ;
 ***********************************************************************************************************************************;
 
 * Distribution of all metals (not normally distributed) *;
@@ -1157,7 +1155,7 @@ run;
 
 
 **********************************************************************************************************************************;
-*												Re-Code Blood Metals Into Quartiles												  ;
+*						Re-Code Blood Metals Into Quartiles						  ;
 **********************************************************************************************************************************;
 
 * recode blood metal variables to be low, med, high exposure (tertiles or quartiles);
@@ -1315,7 +1313,7 @@ run;
 
 
 **********************************************************************************************************************************;
-	*												Log Transform Blood Metals Into Quartiles									  ;
+*				Log Transform Blood Metals Into Quartiles							  ;
 **********************************************************************************************************************************;
 
 data amenorrhea;
@@ -1359,7 +1357,7 @@ run;
 
 
 ********************************************************************************************************************************;
-*																TABLE 2										  					;
+*				TABLE 2										  		;
 ********************************************************************************************************************************;
 
 ********************************************
@@ -1596,7 +1594,7 @@ ods graphics off;
 
 
 ********************************************************************************************;
-*										TABLE 2 LOG TRANSFORMED								;
+*		TABLE 2 LOG TRANSFORMED							    ;
 ********************************************************************************************;
 
 ************************************************************
@@ -1838,12 +1836,12 @@ ods graphics off;
 
 
 ***********************************************************************************************************************************;
-*** 												LOGISTIC REGRESSION MODELS 													***;
+*** 			LOGISTIC REGRESSION MODELS 									        ***;
 ***********************************************************************************************************************************;
 
 
 **************************************************************************************;
-**** 		                 *TABLE 3 : CRUDE  MODELS             	      		  ****;
+**** 		                 *TABLE 3 : CRUDE  MODELS             	      	  ****;
 **************************************************************************************;
 
 
@@ -2118,10 +2116,10 @@ run;
 
 
 **********************************************************************************************************;
-**** 		            			     *TABLE 4 : ADJUSTED  MODELS             	    		  	  ****;
+**** 		              *TABLE 4: ADJUSTED  MODELS             	    		  	      ****;
 **********************************************************************************************************;
 
-*adjust for all demographic variables and for other metals (not mix);
+*Adjust for all demographic variables and other metals (not mix);
 
 ***************************Amenorrhea**************************;
 
@@ -2519,7 +2517,7 @@ format infertility infertilityf.;
 
 
 ******************************************************************************************************************;
-**** 		                TABLE 5: MODEL WITHOUT ADJUSTING FOR OTHER METALS             	    		  	  ****;
+**** 		                TABLE 5: MODEL WITHOUT ADJUSTING FOR OTHER METALS             	              ****;
 ******************************************************************************************************************;
 
 ***************************Amenorrhea**************************;
