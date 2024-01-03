@@ -224,7 +224,7 @@ else if RHQ420R=2 and RHQ540R=2 then contraception=2;
 else if RHQ420R=. and  RHQ540R=. then contraception=.;
 
 *Create Amenorrhea Variable: 1 = Amenorrhea;
-*Amenorrhea is if answered “Other” or “Don’t know” to the question “What is the reason that you have not had a period in the past 12 months?”;
+*Amenorrhea is if answered â€œOtherâ€ or â€œDonâ€™t knowâ€ to the question â€œWhat is the reason that you have not had a period in the past 12 months?â€;
 
 * re-coding missing for Reason not having regular periods;
 if RHD043 in (77,.) then RHD043R=.;
@@ -266,8 +266,8 @@ run;
 
 ***************************************************Menopause;
 *Create Menopause Variable: 1 = Premature Menopause, 2 = Early Menopause;
-*women who have premature menopause as those who are under age 40 and answer "Menopause/Hysterectomy" for “Reason not having regular periods”;
-*women who have early menopause as those who are age 40-45 and answer"Menopause/Hysterectomy" for “Reason not having regular periods”;
+*women who have premature menopause as those who are under age 40 and answer "Menopause/Hysterectomy" for â€œReason not having regular periodsâ€;
+*women who have early menopause as those who are age 40-45 and answer"Menopause/Hysterectomy" for â€œReason not having regular periodsâ€;
 /*
 if RHD043 in (77,.) then RHD043R=.;
 else RHD043R=RHD043;
@@ -322,7 +322,7 @@ PROC FORMAT;
 				 5= "Never Married"
 				 6= "Living with a partner"
 				 77= "Refused"
-				 99= "Don’t Know"
+				 99= "Donâ€™t Know"
 				 .= "Missing";
  VALUE DMDMARTLRf 1 = "marries/living with partner"
 				  2 = "divorce/widowed/seperated"
@@ -841,7 +841,7 @@ run;
 *Categorical: weighted % (unweighted n)   
 Continuous: mean (standard deviation
 If asymmetrical, median and percentage range (i.e., 25thand 75thpercentile)
-Offer p-values (STROBE suggested to avoid p-values in Table 1). Don’t over-interpret p-values;
+Offer p-values (STROBE suggested to avoid p-values in Table 1). Donâ€™t over-interpret p-values;
 *when using domain statement, read from elegible=1 in the results tab on the left window ;
 
 *************************************************************************************;
