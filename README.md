@@ -4,4 +4,4 @@ McClam and Fan et al. Associations between exposure to single cadmium, lead, mer
 
 *Correspondence to: Dr. Shuo Xiao. Department of Pharmacology and Toxicology, Ernest Mario School of Pharmacy, Rutgers University. Email: sx106@pharmacy.rutgers.edu. 
 
-For specific code questions please email Yihan Fan. Email: 1410301524@pku.edu.cn
+For specific code questions please email Yihan Fan. Email: yihanfan@ucla.edu
