@@ -1,0 +1,69 @@
+                                              Amenorrhea: P-Value for Age
+
+
+                         The SURVEYREG Procedure
+
+  Dependent Variable: RIDAGEYR
+
+  Stratum Variables: SDMVSTRA
+  Cluster Variables: SDMVPSU
+  Weight Variable: WTSH6YR
+
+                      Estimated Regression Coefficients
+
+Parameter                   Estimate       Std Error     t Value    Pr > |t|
+----------------------------------------------------------------------------
+Intercept                  21.455612        5.216333      4.1132      0.1518
+amenorrhea                  7.167848        2.317679      3.0927      0.1991
+----------------------------------------------------------------------------
+
+                      Model-Based Standard Errors
+
+Parameter                 |Estimate|   Model Std Err  Design Std Err
+--------------------------------------------------------------------
+Intercept                  21.455612        4.164399        5.216333
+amenorrhea                  7.167848        2.486362        2.317679
+--------------------------------------------------------------------
+
+  R-Square = 0.1720
+  Root MSE = 1431.9459
+  Dependent Mean = 32.9368
+  Denominator DF = 1
+  Model DF = 40
+  MSE = 2050468.9482
+
+                                           Amenorrhea: P-Value for Family PIR
+
+
+                         The SURVEYREG Procedure
+
+  Dependent Variable: INDFMPIR
+
+  Stratum Variables: SDMVSTRA
+  Cluster Variables: SDMVPSU
+  Weight Variable: WTSH6YR
+
+                      Estimated Regression Coefficients
+
+Parameter                   Estimate       Std Error     t Value    Pr > |t|
+----------------------------------------------------------------------------
+Intercept                   2.690026        0.936048      2.8738      0.2132
+amenorrhea                 -0.070132        0.568705     -0.1233      0.9219
+----------------------------------------------------------------------------
+
+                      Model-Based Standard Errors
+
+Parameter                 |Estimate|   Model Std Err  Design Std Err
+--------------------------------------------------------------------
+Intercept                   2.690026        0.701005        0.936048
+amenorrhea                  0.070132        0.418536        0.568705
+--------------------------------------------------------------------
+
+  R-Square = 0.0007
+  Root MSE = 241.0434
+  Dependent Mean = 2.5777
+  Denominator DF = 1
+  Model DF = 40
+  MSE = 58101.9010
+
+

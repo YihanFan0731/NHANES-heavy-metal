@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_surveyfreq_table1",
+  "source_file": "Code.sas",
+  "source_blob_sha": "b6cd16b7b057783064d3adf6beb9520e80707c23",
+  "source_commit": "d10d0cf907a4acc8141b99fa46dbeb49ce557365",
+  "notes": "The Table 1 categorical PROC SURVEYFREQ (amenorrhea by demographics) with CLUSTER SDMVPSU / STRATA SDMVSTRA / WEIGHT WTSH6YR and the nowt/row/chisq options, verbatim from Code.sas. External XPT-derived project.amenorrhea replaced by a 42-row NHANES-shaped survey-design DATALINES block (2 strata x 2 PSUs) so the Rao-Scott design-based inference runs. All SURVEYFREQ statements, options, and format assignments are the author's."
+}

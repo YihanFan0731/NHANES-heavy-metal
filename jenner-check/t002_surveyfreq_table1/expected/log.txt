@@ -1,0 +1,24 @@
+NOTE: Option OBS changed to 100.
+NOTE: DATA amenorrhea
+
+NOTE: Processing inline DATALINES (42 lines)
+
+NOTE: Read 42 rows from DATALINES.
+NOTE: Wrote amenorrhea (42 rows, 21 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC FORMAT library=WORK
+
+NOTE: FORMAT RIDRETH1Rf defined (5 ranges).
+NOTE: FORMAT DMDEDUC2Rf defined (4 ranges).
+NOTE: FORMAT DMDMARTLRf defined (4 ranges).
+NOTE: FORMAT BMXBMIRf defined (5 ranges).
+NOTE: FORMAT yesnof defined (3 ranges).
+NOTE: FORMAT amenorrheaf defined (3 ranges).
+NOTE: Option TITLE changed to Weighted Table 1 Amenorrhea Total by Demographics.
+NOTE: PROC SURVEYFREQ data=amenorrhea
+
+NOTE: Using Python scipy version 1.16.3
+NOTE: PROC SURVEYFREQ completed.
+

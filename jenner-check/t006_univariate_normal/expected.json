@@ -1,0 +1,13 @@
+{
+  "_captured_at": "2026-07-24T04:18:30Z",
+  "_captured_run_id": "r_1fa19bbfcf124115aa9fc20b5699fad3",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Read 42 rows from DATALINES.",
+    "NOTE: Wrote amenorrhea (42 rows, 21 columns).",
+    "NOTE: PROC UNIVARIATE"
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

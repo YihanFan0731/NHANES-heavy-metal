@@ -1,0 +1,485 @@
+                                       Distribution of total metals - amenorrhea
+
+                                                The UNIVARIATE Procedure
+                                                   Variable:  LBXBPB
+
+                                                        Moments
+
+N                                 42    Sum Weights                  1384064
+Mean                        1.586441    Sum Observations      2195736.937660
+Std Deviation             131.696328    Variance                17343.922931
+Skewness                   -0.000000    Kurtosis                   -3.232692
+Uncorrected SS        4194508.670810    Corrected SS           711100.840168
+Coeff Variation          8301.367713    Std Error Mean              0.111943
+
+          Basic Statistical Measures           
+
+Location            Variability                
+--------  --------  -------------  ------------
+Mean      1.586441  Std Deviation    131.696328
+Median    1.670500  Variance       17343.922931
+Mode             .  Range              2.131000
+
+Quantiles (Definition 5)
+
+Quantile    Estimate
+----------  --------
+0% Min      0.339000
+1%          0.339000
+5%          0.431000
+10%         0.583000
+25% Q1      0.864000
+50% Median  1.670500
+75% Q3      2.253000
+90%         2.433000
+95%         2.455000
+99%         2.470000
+100% Max    2.470000
+
+         Extreme Observations         
+
+Lowest              Highest           
+--------  --------  --------  --------
+Value     0.339000  Value     2.433000
+Value     0.396000  Value     2.447000
+Value     0.431000  Value     2.455000
+Value     0.567000  Value     2.456000
+Value     0.583000  Value     2.470000
+
+
+
+
+
+
+
+          Tests for Normality          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Shapiro-Wilk        0.897560866  0.001217832
+Kolmogorov-Smirnov  0.159781696  0.210072437
+Anderson-Darling    1.481702659    0.0001
+Cramer-von Mises    0.239007989  0.203280161
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         14.171913548         0
+Sign                       21         0
+Signed Rank               903  0.000000017
+
+
+                                                The UNIVARIATE Procedure
+                                                   Variable:  LBXBCD
+
+                                                        Moments
+
+N                                 42    Sum Weights                  1384064
+Mean                        0.856061    Sum Observations      1184843.478210
+Std Deviation              63.626615    Variance                 4048.346075
+Skewness                   -0.000000    Kurtosis                   -3.232692
+Uncorrected SS        1180280.431361    Corrected SS           165982.189066
+Coeff Variation          7432.486433    Std Error Mean              0.054083
+
+          Basic Statistical Measures          
+
+Location            Variability               
+--------  --------  -------------  -----------
+Mean      0.856061  Std Deviation    63.626615
+Median    0.824500  Variance       4048.346075
+Mode             .  Range             1.357000
+
+Quantiles (Definition 5)
+
+Quantile    Estimate
+----------  --------
+0% Min      0.142000
+1%          0.142000
+5%          0.221000
+10%         0.337000
+25% Q1      0.636000
+50% Median  0.824500
+75% Q3      1.114000
+90%         1.323000
+95%         1.413000
+99%         1.499000
+100% Max    1.499000
+
+         Extreme Observations         
+
+Lowest              Highest           
+--------  --------  --------  --------
+Value     0.142000  Value     1.323000
+Value     0.150000  Value     1.353000
+Value     0.221000  Value     1.413000
+Value     0.229000  Value     1.498000
+Value     0.337000  Value     1.499000
+
+
+
+
+
+
+
+          Tests for Normality          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Shapiro-Wilk        0.971559956  0.372015388
+Kolmogorov-Smirnov  0.091991418  0.837389991
+Anderson-Darling    0.305300826      0.15
+Cramer-von Mises    0.040911941  0.930534706
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         15.828655271         0
+Sign                       21         0
+Signed Rank               903  0.000000017
+
+
+                                                The UNIVARIATE Procedure
+                                                   Variable:  LBXTHG
+
+                                                        Moments
+
+N                                 42    Sum Weights                  1384064
+Mean                        1.909940    Sum Observations      2643479.719080
+Std Deviation             189.593058    Variance                35945.527775
+Skewness                    0.000000    Kurtosis                   -3.232692
+Uncorrected SS        6522653.905969    Corrected SS          1473766.638755
+Coeff Variation          9926.650727    Std Error Mean              0.161155
+
+          Basic Statistical Measures           
+
+Location            Variability                
+--------  --------  -------------  ------------
+Mean      1.909940  Std Deviation    189.593058
+Median    1.669500  Variance       35945.527775
+Mode             .  Range              3.672000
+
+Quantiles (Definition 5)
+
+Quantile    Estimate
+----------  --------
+0% Min      0.297000
+1%          0.297000
+5%          0.334000
+10%         0.589000
+25% Q1      0.978000
+50% Median  1.669500
+75% Q3      2.815000
+90%         3.242000
+95%         3.479000
+99%         3.969000
+100% Max    3.969000
+
+         Extreme Observations         
+
+Lowest              Highest           
+--------  --------  --------  --------
+Value     0.297000  Value     3.242000
+Value     0.321000  Value     3.328000
+Value     0.334000  Value     3.479000
+Value     0.454000  Value     3.833000
+Value     0.589000  Value     3.969000
+
+
+
+
+
+
+
+          Tests for Normality          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Shapiro-Wilk        0.94571516  0.045425488
+Kolmogorov-Smirnov  0.126494959  0.474114298
+Anderson-Darling    0.758641349     0.025
+Cramer-von Mises    0.132782972  0.448094913
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         11.851556864         0
+Sign                       21         0
+Signed Rank               903  0.000000017
+
+
+                                                The UNIVARIATE Procedure
+                                                     Variable:  Mix
+
+                                                        Moments
+
+N                                 42    Sum Weights                  1384064
+Mean                       22.504868    Sum Observations      31148186.345073
+Std Deviation            2067.139629    Variance              4273066.246557
+Skewness                    0.000000    Kurtosis                   -3.232692
+Uncorrected SS        876181542.062543    Corrected SS          175195716.108846
+Coeff Variation          9185.299900    Std Error Mean              1.757081
+
+            Basic Statistical Measures            
+
+Location             Variability                  
+--------  ---------  -------------  --------------
+Mean      22.504868  Std Deviation     2067.139629
+Median    20.671950  Variance       4273066.246557
+Mode              .  Range               41.163500
+
+Quantiles (Definition 5)
+
+Quantile     Estimate
+----------  ---------
+0% Min       4.769700
+1%           4.769700
+5%           5.587900
+10%          7.694500
+25% Q1      11.563000
+50% Median  20.671950
+75% Q3      32.074800
+90%         37.106300
+95%         39.237300
+99%         45.933200
+100% Max    45.933200
+
+         Extreme Observations          
+
+Lowest              Highest            
+--------  --------  --------  ---------
+Value     4.769700  Value     37.106300
+Value     5.120400  Value     37.548500
+Value     5.587900  Value     39.237300
+Value     7.204600  Value     42.732600
+Value     7.694500  Value     45.933200
+
+
+
+
+
+
+
+          Tests for Normality          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Shapiro-Wilk        0.948047207  0.054993747
+Kolmogorov-Smirnov  0.118210514  0.560022767
+Anderson-Darling    0.730687278     0.025
+Cramer-von Mises    0.124566136  0.478956336
+
+
+
+
+         Tests for Location          
+
+Test                Statistic   p Value
+------------------  ---------  --------
+Student's t         12.808102821         0
+Sign                       21         0
+Signed Rank               903  0.000000017
+
+
+                    Stem Leaf                     #  Boxplot
+                  0 |33455667888999        14   
+                  1 |022445677999          12  +
+                  2 |0012222223344444      16   
+                     ----+----+----+----+
+               Multiply Stem.Leaf by 1
+
+
+
+                      Schematic Plots
+        Variable=LBXBPB
+           |     +-----+
+           |     |     |
+        0.339-----*-----2.47   (box plot)
+           |     |     |
+           |     +-----+
+
+
+
+                         Normal Probability Plot
+      2.47+                                     *+**  *   *
+          |                                *****
+          |                             ***+++
+          |                          *** ++
+          |                          * ++
+          |                         *++
+          |                       **+
+          |                     +*
+          |                   ++ *
+          |                +++ **
+          |              ++ ***
+          |            ++***
+          |          ** *
+     0.339+   *   *++
+           +----+----+----+----+----+----+----+----+----+----+
+               -2        -1         0        +1        +2
+
+
+                    Stem Leaf                     #  Boxplot
+                  0 |112233466666777777788888999  27   
+                  1 |000111112333444       15   
+                     ----+----+----+----+
+               Multiply Stem.Leaf by 1
+
+
+
+                      Schematic Plots
+        Variable=LBXBCD
+           |     +-----+
+           |     |     |
+        0.142-----*-----1.499   (box plot)
+           |     |     |
+           |     +-----+
+
+
+
+                         Normal Probability Plot
+     1.499+                                          +*+  *
+          |                                       **+
+          |                                   ***+
+          |                                 **+
+          |                             ****
+          |                           +*+
+          |                         ****
+          |                    ******
+          |                ****++
+          |                +++
+          |             ++*
+          |          +++**
+          |       +++**
+     0.142+   *+++*
+           +----+----+----+----+----+----+----+----+----+----+
+               -2        -1         0        +1        +2
+
+
+                    Stem Leaf                     #  Boxplot
+                  0 |233456677899          12   
+                  1 |1123333566            10  +
+                  2 |11233466788889        14  +
+                  3 |223489                 6   
+                     ----+----+----+----+
+               Multiply Stem.Leaf by 1
+
+
+
+                      Schematic Plots
+        Variable=LBXTHG
+           |     +-----+
+           |     |     |
+        0.297-----*-----3.969   (box plot)
+           |     |     |
+           |     +-----+
+
+
+
+                         Normal Probability Plot
+     3.969+                                           *+++*
+          |                                         +++
+          |                                       **
+          |                                    **+
+          |                               *****
+          |                             **++
+          |                          ***++
+          |                         +*+
+          |                       ++*
+          |                    +****
+          |                 +++*
+          |               +****
+          |           *+***
+     0.297+   *   * +*+
+           +----+----+----+----+----+----+----+----+----+----+
+               -2        -1         0        +1        +2
+
+
+                    Stem Leaf                     #  Boxplot
+                  4 |7                      1   
+                  5 |15                     2   
+                  6 |                       0   
+                  7 |26                     2   
+                  8 |1                      1   
+                  9 |02                     2   
+                 10 |3                      1   
+                 11 |05                     2   
+                 12 |2                      1  |
+                 13 |6                      1  |
+                 14 |1                      1  |
+                 15 |39                     2  |
+                 16 |13                     2  |
+                 17 |4                      1  |
+                 18 |5                      1  |
+                 19 |                       0  |
+                 20 |57                     2  +
+                 21 |                       0  +
+                 22 |                       0  |
+                 23 |                       0  |
+                 24 |28                     2  |
+                 25 |9                      1  |
+                 26 |                       0  |
+                 27 |48                     2  |
+                 28 |2                      1  |
+                 29 |                       0  |
+                 30 |0                      1  |
+                 31 |67                     2  |
+                 32 |038                    3   
+                 33 |4                      1   
+                 34 |3                      1   
+                 35 |                       0   
+                 36 |5                      1   
+                 37 |15                     2   
+                 38 |                       0   
+                 39 |2                      1   
+                 40 |                       0   
+                 41 |                       0   
+                 42 |7                      1   
+                 43 |                       0   
+                 44 |                       0   
+                 45 |9                      1   
+                     ----+----+----+----+
+               Multiply Stem.Leaf by 1
+
+
+
+                      Schematic Plots
+        Variable=Mix
+           |     +-----+
+           |     |     |
+        4.7697-----*-----45.9332   (box plot)
+           |     |     |
+           |     +-----+
+
+
+
+                         Normal Probability Plot
+   45.9332+                                             ++*
+          |                                          +*+
+          |                                       +*+
+          |                                    **+*
+          |                               *****
+          |                              *+++
+          |                           ***+
+          |                          *+
+          |                       ++*
+          |                    ++***
+          |                 +++**
+          |               ++***
+          |           *+****
+    4.7697+   *   * +*+
+           +----+----+----+----+----+----+----+----+----+----+
+               -2        -1         0        +1        +2
+
+

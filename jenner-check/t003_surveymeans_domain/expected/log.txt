@@ -1,0 +1,17 @@
+NOTE: Option OBS changed to 100.
+NOTE: DATA amenorrhea
+
+NOTE: Processing inline DATALINES (42 lines)
+
+NOTE: Read 42 rows from DATALINES.
+NOTE: Wrote amenorrhea (42 rows, 21 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: Option TITLE changed to Amenorrhea: Weighted Table 1 total sample for continuous variables.
+NOTE: PROC SURVEYMEANS data=amenorrhea
+
+NOTE: Using Python scipy version 1.16.3
+NOTE: ODS plot written: surveymeans_ci.spec.json
+NOTE: PROC SURVEYMEANS completed.
+

@@ -1,0 +1,47 @@
+NOTE: Option OBS changed to 100.
+NOTE: DATA project_reproduction
+
+NOTE: Processing inline DATALINES (20 lines)
+
+NOTE: Read 20 rows from DATALINES.
+NOTE: Wrote project_reproduction (20 rows, 9 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA reproduction1
+
+
+NOTE: Read 20 rows from project_reproduction.
+NOTE: Wrote reproduction1 (20 rows, 15 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC FORMAT library=WORK
+
+NOTE: FORMAT RIDRETH1f defined (6 ranges).
+NOTE: FORMAT RIDRETH1Rf defined (5 ranges).
+NOTE: FORMAT DMDEDUC2f defined (8 ranges).
+NOTE: FORMAT DMDEDUC2Rf defined (4 ranges).
+NOTE: FORMAT DMDMARTLf defined (9 ranges).
+NOTE: FORMAT DMDMARTLRf defined (4 ranges).
+NOTE: FORMAT BMXBMIRf defined (5 ranges).
+NOTE: FORMAT yesnof defined (3 ranges).
+NOTE: PROC FREQ
+NOTE: ODS plot written: freq_mosaic_ridreth1_ridreth1r.spec.json
+NOTE: PROC FREQ statement used.
+NOTE: PROC FREQ
+NOTE: ODS plot written: freq_mosaic_dmdeduc2_dmdeduc2r.spec.json
+NOTE: PROC FREQ statement used.
+NOTE: PROC FREQ
+NOTE: ODS plot written: freq_mosaic_dmdmartl_dmdmartlr.spec.json
+NOTE: PROC FREQ statement used.
+NOTE: PROC FREQ
+NOTE: ODS plot written: freq_mosaic_bmxbmi_bmxbmir.spec.json
+NOTE: PROC FREQ statement used.
+NOTE: PROC FREQ
+NOTE: ODS plot written: freq_mosaic_smq020_smq020r.spec.json
+NOTE: PROC FREQ statement used.
+NOTE: PROC FREQ
+NOTE: ODS plot written: freq_mosaic_hiq011_hiq011r.spec.json
+NOTE: PROC FREQ statement used.
+
