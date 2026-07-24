@@ -1,0 +1,7 @@
+{
+  "bundle": "t003_surveymeans_domain",
+  "source_file": "Code.sas",
+  "source_blob_sha": "b6cd16b7b057783064d3adf6beb9520e80707c23",
+  "source_commit": "d10d0cf907a4acc8141b99fa46dbeb49ce557365",
+  "notes": "The Table 1 continuous-variable PROC SURVEYMEANS (min mean max range median Q1 Q3) with CLUSTER/STRATA/WEIGHT and the DOMAIN eligible statement over RIDAGEYR and INDFMPIR, verbatim from Code.sas. External XPT-derived project.amenorrhea replaced by the 42-row NHANES-shaped survey-design DATALINES block. All SURVEYMEANS statistics keywords, design statements, and the DOMAIN statement are the author's."
+}

@@ -1,0 +1,7 @@
+{
+  "bundle": "t006_univariate_normal",
+  "source_file": "Code.sas",
+  "source_blob_sha": "b6cd16b7b057783064d3adf6beb9520e80707c23",
+  "source_commit": "d10d0cf907a4acc8141b99fa46dbeb49ce557365",
+  "notes": "The blood-metal distribution check: PROC UNIVARIATE with the PLOT and NORMAL options, WHERE eligible=1, VAR LBXBPB LBXBCD LBXTHG Mix, and WEIGHT WTSH6YR, verbatim from Code.sas. External XPT-derived project.amenorrhea replaced by the 42-row NHANES-shaped survey-design DATALINES block; Mix uses the author's exact metal weights. All UNIVARIATE statements and options are the author's."
+}

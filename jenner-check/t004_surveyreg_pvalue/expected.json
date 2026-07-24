@@ -1,0 +1,13 @@
+{
+  "_captured_at": "2026-07-24T04:16:40Z",
+  "_captured_run_id": "r_ae2076ca464e41fe9fac889d700ad86b",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Read 42 rows from DATALINES.",
+    "NOTE: Wrote amenorrhea (42 rows, 21 columns).",
+    "NOTE: PROC SURVEYREG completed."
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

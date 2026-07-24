@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_recode_freq",
+  "source_file": "Code.sas",
+  "source_blob_sha": "b6cd16b7b057783064d3adf6beb9520e80707c23",
+  "source_commit": "d10d0cf907a4acc8141b99fa46dbeb49ce557365",
+  "notes": "PROC FORMAT value catalog + the RECODING/CREATING NEW VARIABLES block + recode-validation PROC FREQ crosstabs, verbatim from Code.sas. External NHANES XPT libraries (Dropbox paths) replaced by a 20-row inline DATALINES block of NHANES-shaped demographics so the recode rules and crosstab checks run. All recode logic, format VALUEs, and TABLES statements are the author's, unchanged."
+}

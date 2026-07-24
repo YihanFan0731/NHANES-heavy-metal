@@ -1,0 +1,14 @@
+{
+  "_captured_at": "2026-07-24T04:12:00Z",
+  "_captured_run_id": "r_65c8729c38ca47f794e5e8f4d0c3e6fb",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Read 20 rows from DATALINES.",
+    "NOTE: Wrote reproduction1 (20 rows, 15 columns).",
+    "NOTE: FORMAT RIDRETH1Rf defined (5 ranges).",
+    "NOTE: FORMAT yesnof defined (3 ranges)."
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}
